@@ -1,107 +1,76 @@
-# Editkaro.in-Portfolio-Website
-A complete multi-page portfolio website designed for Editkaro.in, a Social Media Marketing & Video Editing Agency.
-The site highlights their services, video portfolio, brand identity, and ways for clients to connect and collaborate.
+# Editkaro.in — Interactive Video Portfolio Website
 
-This project demonstrates strong skills in responsive design, UI/UX development, form handling, animations, and dynamic content integration.
+A modern, dynamic, and visually appealing Portfolio Website built for Editkaro.in, a real-world social media marketing & video editing agency.
+This project showcases different types of videos they edit — using HTML, CSS, and JavaScript with smooth filtering, hover animations, and responsive layouts.
 
-🌐 Live Pages Included
-Page	Key Elements
-Home	Hero banner, scroll animations, services showcase, email subscriber form (Google Sheets integration), CTA buttons
-Portfolio	Category-based filtering, 18 editable portfolio items, thumbnails, hover animations, lightbox video player
-About Us	Mission, vision, core values, team showcase with 6 members (placeholders), “Why Choose Us” section
-Contact	Contact form with database integration, office details, business hours, form validation & live success/error feedback
-✨ Website Features
-🏠 Home Page
+## 🎯 Project Objective
 
-Hero section with gradient animation + CTA buttons
+To design and develop a professional portfolio webpage for Editkaro.in that enables visitors to:
 
-Services highlights with hover effects
+Browse videos from multiple categories
 
-Email Subscription Form ✅ Integrated with Google Sheets
+Preview videos interactively
 
-Content structured for lead generation
+Filter content based on editing styles (Short-form, Gaming, eCommerce Ads, etc.)
 
-🎞️ Portfolio Page
+Experience smooth UI animations and responsive layouts
 
-Advanced filtering: Short / Long Form, Gaming, Football, Ads, Documentary, Anime, Color Grading, etc.
+Gain insights into the editing services provided by the brand
 
-18 project items with stock placeholders (changeable to real client assets)
+This project focuses on UI/UX design, front-end development, and creative content presentation.
 
-Smooth interactions + video lightbox for immersive viewing
+## 🧱 Features
 
-👥 About Us Page
+🎥 Video Filters and Categories
+Short-Form, Long-Form, Gaming, Football Edits, eCommerce Ads, Color Grading, Anime, Documentaries & Ads
 
-Mission & Vision storytelling
+▶️ Hover to Preview Video — Engaging thumbnail interactions
 
-Core company values section
+🔍 Lightbox Video Player — Watch videos without leaving the page
 
-Team showcase with professional placeholder images
+✨ Smooth Animations — CSS hover effects and transitions
 
-Highlights why clients should choose Editkaro.in
+📱 Fully Responsive — Optimized for mobile, tablet & desktop
 
-📩 Contact Page
+🎨 Modern Portfolio UI — Clean layout with a strong creative appeal
 
-Fully functional contact form
+⭐ Real-client based project for Editkaro.in
 
-Auto-store submissions in Google Sheets using Google Apps Script / API
+🧩 Technologies Used
 
-Real-time validation
+HTML5 – Page structure & visual elements
 
-Business hours & contact details
+CSS3 – Styling, animations, and responsive layout
 
-🛠️ Tech Stack
-Technology	Usage
-HTML5	Website structure
-CSS3	Styling, animations, responsiveness
-JavaScript	Filtering, lightbox, form handling, interactions
-Google Sheets + Apps Script	Database for contact & email submissions
-📁 Project Structure
-Editkaro-Website/
-│
-├─ index.html           # Home Page
-├─ portfolio.html       # Portfolio Page
-├─ about.html           # About Page
-├─ contact.html         # Contact Page
-│
-├─ assets/
-│   ├─ images/          # Images & thumbnails
-│   └─ videos/          # Video assets (optional, external links supported)
-│
-├─ css/
-│   └─ style.css        # Main stylesheet
-│
-└─ js/
-    └─ script.js        # Filtering, lightbox, form handling, animations
+JavaScript (ES6) – Filtering logic, interactivity & lightbox behavior
 
-✅ Setup Instructions
+## 🚀 How to Run the Project
 
-1️⃣ Download or clone this repository
-2️⃣ Open any .html file in a browser — works without a server
-3️⃣ Update video links & images in the Portfolio section
-4️⃣ Connect forms to your own Google Sheet using provided Apps Script template
+Clone or Download the repository:
 
-🔌 Google Sheets Integration
+git clone https://github.com/your-github-username/Editkaro-Portfolio.git
 
-Both Email Subscriber Form and Contact Form send data to Google Sheets.
 
-📌 Setup Guide:
+Open the project folder and run:
 
-Create a Google Sheet
+open index.html
 
-Go to Apps Script → Paste the provided script
 
-Deploy as Web App → Copy the endpoint URL
+or simply double-click the index.html file to open it in your browser ✅
 
-Paste the URL inside script.js form submission function
+## 📌 Future Enhancements
 
-Test and verify live database updates! ✅
+Add backend for client updates
 
-📈 Performance & SEO Optimizations
+Add analytics and client inquiry section
 
-Metadata & Open Graph tags for social visibility
+Expand categories with more real project videos
 
-Mobile-first responsive layout
+Animating filters using GSAP or Framer Motion
 
-Optimized media loading & caching
+Dark/Light theme toggle
 
-Semantic HTML for accessibility
+## 🏅 Acknowledgment
+
+This project is created as part of a VaultofCodes Mini Project initiative.
+If selected, the best design will be showcased on their platform and shared with the real client Editkaro.in.
